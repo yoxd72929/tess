@@ -7,7 +7,7 @@ const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 2157; // Sesuai port di panel kamu
-const CONTROL_KEY = process.env.CONTROL_KEY || 'kunci-rahasia-anda'; // Ganti dengan kunci aman
+const CONTROL_KEY = 'yoxd1005';
 
 // Middleware untuk parsing JSON dan menyajikan file statis
 app.use(express.json());
